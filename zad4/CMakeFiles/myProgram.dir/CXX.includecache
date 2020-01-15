@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sitar/laborki_git/kolokwium/zad4/src/libtest.cpp
+Student.h
+/home/sitar/laborki_git/kolokwium/zad4/src/Student.h
+
+include/Student.h
+string
+-
+

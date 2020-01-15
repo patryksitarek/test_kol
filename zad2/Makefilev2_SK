@@ -1,0 +1,25 @@
+CC = g++
+CFLAGS = -Wall -ansi -pedantic
+LFLAGS = -lm
+OBJS = main.o employee.o address.o
+EXEC = myProgram
+
+all: $(EXEC)
+$(EXEC): $(OBJS) 
+	$(CC) $(LFLAGS) $+ -o $@
+
+%.o: %.c
+	$(CC) -c $(CFLAGS) $<
+
+main.o: employee.h address.h
+
+employee.o: employee.h
+
+address.o: address.h
+
+clean:
+	rm -f *~
+	rm -f *.bak
+	rm -f $(EXEC) $(OBJS)
+
+.PHONY: clean
