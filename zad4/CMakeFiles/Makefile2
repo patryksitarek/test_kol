@@ -59,10 +59,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sitar/laborki_git/kolokwium/zad4
+CMAKE_SOURCE_DIR = /home/sitar/laborki_git/test_kol/zad4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sitar/laborki_git/kolokwium/zad4
+CMAKE_BINARY_DIR = /home/sitar/laborki_git/test_kol/zad4
 
 #=============================================================================
 # Target rules for target CMakeFiles/myProgram.dir
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/sitar/laborki_git/kolokwium/zad4
 CMakeFiles/myProgram.dir/all:
 	$(MAKE) -f CMakeFiles/myProgram.dir/build.make CMakeFiles/myProgram.dir/depend
 	$(MAKE) -f CMakeFiles/myProgram.dir/build.make CMakeFiles/myProgram.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sitar/laborki_git/kolokwium/zad4/CMakeFiles --progress-num=1,2 "Built target myProgram"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sitar/laborki_git/test_kol/zad4/CMakeFiles --progress-num=1,2,3 "Built target myProgram"
 .PHONY : CMakeFiles/myProgram.dir/all
 
 # Include target in all.
@@ -81,9 +81,9 @@ all: CMakeFiles/myProgram.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/myProgram.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sitar/laborki_git/kolokwium/zad4/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sitar/laborki_git/test_kol/zad4/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myProgram.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sitar/laborki_git/kolokwium/zad4/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sitar/laborki_git/test_kol/zad4/CMakeFiles 0
 .PHONY : CMakeFiles/myProgram.dir/rule
 
 # Convenience name for target.

@@ -1,4 +1,4 @@
-# Install script for directory: /home/sitar/laborki_git/kolokwium/zad4
+# Install script for directory: /home/sitar/laborki_git/test_kol/zad4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,34 +37,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/home/sitar/laborki_git/kolokwium/zad4/bin/myProgram" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/sitar/laborki_git/kolokwium/zad4/bin/myProgram")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/sitar/laborki_git/kolokwium/zad4/bin/myProgram"
-         RPATH "")
-  endif()
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/sitar/laborki_git/kolokwium/zad4/bin/myProgram")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "/home/sitar/laborki_git/kolokwium/zad4/bin" TYPE EXECUTABLE FILES "/home/sitar/laborki_git/kolokwium/zad4/myProgram")
-  if(EXISTS "$ENV{DESTDIR}/home/sitar/laborki_git/kolokwium/zad4/bin/myProgram" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/sitar/laborki_git/kolokwium/zad4/bin/myProgram")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}/home/sitar/laborki_git/kolokwium/zad4/bin/myProgram"
-         OLD_RPATH "/home/sitar/laborki_git/kolokwium/zad4/lib:"
-         NEW_RPATH "")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/sitar/laborki_git/kolokwium/zad4/bin/myProgram")
-    endif()
-  endif()
-endif()
-
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()
@@ -73,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sitar/laborki_git/kolokwium/zad4/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sitar/laborki_git/test_kol/zad4/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

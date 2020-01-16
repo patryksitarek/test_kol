@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/myProgram.dir/src/libtest.cpp.o  -o myProgram  -L/home/sitar/laborki_git/kolokwium/zad4/lib -Wl,-rpath,/home/sitar/laborki_git/kolokwium/zad4/lib: -Wl,-Bstatic -ltestStudent -Wl,-Bdynamic 
+/usr/bin/c++     CMakeFiles/myProgram.dir/src/Student.cpp.o CMakeFiles/myProgram.dir/src/libtest.cpp.o  -o bin/myProgram 

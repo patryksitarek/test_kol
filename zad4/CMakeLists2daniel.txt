@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.13.4)
+project(myProgram)
+
+include_directories(include)
+
+add_library(LibTest STATIC src/libtest.cpp)
+
+add_executable(${PROJECT_NAME} src/libtest.cpp)
+
+target_link_libraries(${PROJECT_NAME} LibTest)
+
+install(TARGETS ${PROJECT_NAME} DESTINATION bin)
+install(FILES src/libtest.cpp DESTINATION lib)

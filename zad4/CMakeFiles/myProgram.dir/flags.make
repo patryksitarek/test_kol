@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/sitar/laborki_git/kolokwium/zad4/include 
+CXX_INCLUDES = -I/home/sitar/laborki_git/test_kol/zad4/include 
 

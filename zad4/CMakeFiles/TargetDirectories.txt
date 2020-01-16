@@ -1,7 +1,3 @@
-/home/sitar/laborki_git/kolokwium/zad4/CMakeFiles/edit_cache.dir
-/home/sitar/laborki_git/kolokwium/zad4/CMakeFiles/install/strip.dir
-/home/sitar/laborki_git/kolokwium/zad4/CMakeFiles/install/local.dir
-/home/sitar/laborki_git/kolokwium/zad4/CMakeFiles/myProgram.dir
-/home/sitar/laborki_git/kolokwium/zad4/CMakeFiles/rebuild_cache.dir
-/home/sitar/laborki_git/kolokwium/zad4/CMakeFiles/list_install_components.dir
-/home/sitar/laborki_git/kolokwium/zad4/CMakeFiles/install.dir
+/home/sitar/laborki_git/test_kol/zad4/CMakeFiles/rebuild_cache.dir
+/home/sitar/laborki_git/test_kol/zad4/CMakeFiles/myProgram.dir
+/home/sitar/laborki_git/test_kol/zad4/CMakeFiles/edit_cache.dir
